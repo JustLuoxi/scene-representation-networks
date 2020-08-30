@@ -190,6 +190,6 @@ def show_images(images, titles=None):
 
     plt.tight_layout()
 
-    # fig.set_size_inches(np.array(fig.get_size_inches()) * n_images)
+    fig.set_size_inches(np.array(fig.get_size_inches()) * n_images)
     return fig
 

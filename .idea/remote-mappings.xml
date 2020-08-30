@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RemoteMappingsManager">
+    <list>
+      <list>
+        <remote-mappings server-id="python@sftp://root@10.15.89.66:20021/data/new_disk/luoxi/conda/conda3/envs/SRN/bin/python" />
+      </list>
+    </list>
+  </component>
+</project>

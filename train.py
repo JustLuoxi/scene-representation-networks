@@ -10,6 +10,8 @@ from torch.utils.data import DataLoader
 from srns import *
 import util
 
+os.environ["CUDA_VISIBLE_DEVICES"] = "2"
+torch.cuda.set_device(2)
 p = configargparse.ArgumentParser()
 p.add('-c', '--config_filepath', required=False, is_config_file=True, help='Path to config file.')
 
